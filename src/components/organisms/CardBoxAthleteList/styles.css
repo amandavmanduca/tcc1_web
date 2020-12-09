@@ -1,0 +1,20 @@
+#TableAthletesList table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    /* border: 1px solid #ddd; */
+}
+
+#TableAthletesList table th, td {
+    text-align: center;
+    padding: 0px;
+    height: 70px;
+}
+
+#TableAthletesList table tr {
+    position: relative;
+}
+
+#TableAthletesList table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

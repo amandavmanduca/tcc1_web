@@ -1,0 +1,38 @@
+#TableRanking {
+    display: inline-block;
+    overflow-x: scroll;
+}
+
+#TableRanking table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#TableRanking table th, td {
+    text-align: center;
+    padding: 0px;
+    height: 70px;
+    border-bottom: solid #fff 2px;
+}
+
+#TableRanking table tr {
+    position: relative;
+}
+
+#TableRanking table th {
+    border-top: solid #fafafa 2px;
+    background-color: #0056b8;
+    color: white;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+#TableRanking table tr td {
+    height: 90px;
+    background-color: #FFF;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border-bottom: 1px solid #e5e5e5;
+}
